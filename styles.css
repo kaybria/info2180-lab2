@@ -14,9 +14,7 @@
     color: #2D3748 ;
 
   }
-  p2{
-      color: #718096;
-  }
+
   
   header{
     display:flex;
@@ -28,11 +26,12 @@
     grid-column-end:4;
     background-color:#63B3ED ;
     color: #FFFFFF;
-    text-align: center;
+    /*text-align: center;*/
     padding: 20px;
+    line-height: 5%;
   }
   .circular{
-      border-radius: 90%;
+      border-radius: 55%;
   }
   .img1{
       float: left;
@@ -41,7 +40,7 @@
   }
   .img2{
     float: right;
-    padding: 15px;
+    padding: 20px;
     width: 210px;
 }
   h1{
@@ -60,12 +59,15 @@
   .about{
     padding:10px ;
     background-color: #E2E8F0;
+    font-family: 'Times New Roman', Times, serif;
      
   }
   .aboutheading{
       color: #000000;
+      font-family: 'Times New Roman', Times, serif;
   }
   h2{
+      line-height: 4%;
       font-size: 32px;
       color:#48BB78 ;
   }
@@ -79,6 +81,7 @@
     grid-column-start: 3;
     grid-column-end: 4;
     margin-left: 12%;
+    font-family: 'Times New Roman', Times, serif;
 
   }
   h3{
